@@ -27,7 +27,7 @@ class basedatos{
         $consultaAgregarProducto=$conexionBD->prepare($consultaSQL);
         $resultado=$consultaAgregarProducto->execute();
         if($resultado){
-            echo("exito al agregar datos");
+            header("location:formularioProductos.php");
 
         }else{
             echo("error agregando el registro");

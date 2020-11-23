@@ -8,28 +8,20 @@
 </head>
 <body>
      <header>
-        <h1>ADMINISTRACION DE PRODUCTOS</h1>
+        <h1 align="center">ADMINISTRACION DE PRODUCTOS</h1>
         <hr>
-        <nav class="nav">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-           <a class="nav-link" href="#">Link</a>
-          </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#">Disabled</a>
-         </li>
-      </ul>
-        </nav>
      </header>
 
      <main>
         <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="Container">
+        <form action="" style="margin-top: 10px;">
+          <a href="formularioProductos.php" class="btn btn-info" title="click para ir a registro" target= "_blank">Registro de Productos</a>
+          <a href="listaProductos.php" class="btn btn-info"  title="click para ir a la lista de productos" target= "_blank">lista de Productos</a>
+       </form>
+        </div>
+       </nav>
            <form action="registroProductos.php" method="POST">
              <h1>Registro de productos</h1>
               <div class="row">

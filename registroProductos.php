@@ -15,7 +15,7 @@ if(isset($_POST["envio"])){
 
    $consultaSQL="INSERT INTO productos ( productos, marca, imagen,precio, descripcion) VALUES ('$productos','$marca','$imagen','$precio','$descripcion')";
    $transaccion->agregarProductos($consultaSQL);
-   header("location:listaProductos.php");
+   
    
 
 
